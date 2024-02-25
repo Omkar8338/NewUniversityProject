@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav class="navbar">
+            <a href="index.html"><img src="public/images/logo.png"></a>
+            <div class="nav-links">
+                <i id="close-btn" class="bi bi-x-circle-fill"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+             </div>
+             <i id="menu-btn" class="bi bi-list "></i>      
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>wazewxtvhunijbytcrxrvbun,umnvbtfxrcnynijguvtfctfvunmknmhuvtfg.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Science,Arts,Commerse,Diploma</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Bsc,B.A,B.COM,BBA,BCA,B.TECH</p>
+            </div>
+            <div class="course-col">
+                <h3>post graduation</h3>
+                <p>MCA,MBA,AVITION,PHYSICS</p>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1>our facilities</h1>
+        <p>hvygctfcjnjbhbuvhbihbuvuuhb,vgyvtfxrsshuinjon</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="/public/images/library.png">
+                <h3> world class library</h3>
+                <p>ctdxrxtvvyctrvgyctfcgyv,uhvgyfcerxrcgybhubuvycfcgv</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/public/images/basketball.png">
+                <h3> Largest play ground</h3>
+                <p>ctdxrxtvvyctrvgyctfcgyv,uhvgyfcerxrcgybhubuvycfcgv</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/public/images/cafeteria.png">
+                <h3> Tasty and healthy Food</h3>
+                <p>ctdxrxtvvyctrvgyctfcgyv,uhvgyfcerxrcgybhubuvycfcgv</p>
+            </div>
+        </div>
+            </section>
+
+
+   
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>At [College Name], we believe in the transformative power of education. Our institution stands as a beacon of knowledge, <br>innovation, and community, dedicated to shaping the leaders of tomorrow. Discover the essence of [College Name] through our rich history, commitment to academic excellence, and vibrant campus life.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook fa-beat fa-sm" style="color: #0c54cf;"></i>
+        <i class="fa-brands fa-instagram fa-beat" style="color: #f20791;"></i>
+        <i class="fa-brands fa-linkedin fa-beat" style="color: #2156b0;"></i>
+        <i class="fa-brands fa-twitter fa-beat"></i>
+    </div>
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const menu = document.querySelector(".header");
+        const menubtn = document.querySelector("#menu-btn");
+        const closebtn = document.querySelector("#close-btn");
+        
+        menubtn.onclick = () => {
+            menu.classList.add("active");
+        };
+        closebtn.onclick = () => {
+            menu.classList.remove("active");
+        };
+
+
+
+        // var nav_links = document.getElementById("navlinks");
+        // function showmenu(){
+        //     nav_links.style.right ="0";
+        // }
+        // function showmenu(){
+        //     nav_links.style.right ="-200px";
+        // }
+        </script>
+</body>
+</html>
